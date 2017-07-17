@@ -1,6 +1,6 @@
 This repository contains the source code of [MdidNet : A Convolutional Generative Adversarial Network for Symbolic-domain Music Generation](https://arxiv.org/abs/1703.10847)
 
-<img src="network_structure.png" height="75">
+<img src="network_structure.png" height="350">
 
 ## Notes
 
@@ -19,7 +19,7 @@ It's quite fun to use Tencorboard to check out the model's training process:
 tensorboard --logdir=log/
 ```
 You can check out the loss in the training, and the embedding visulizations of real and fake datas.
-<img src="embedding.png" height="75">
+<img src="embedding.png" height="350">
 
 To train by your own dataset:
 ```
