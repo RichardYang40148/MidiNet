@@ -26,3 +26,6 @@ To train by your own dataset:
 1. change line 134-136 to your data path
 2. run main.py --is_train True
 ```
+## Requirements
+[Tensorflow 0.11.0](https://github.com/tensorflow/tensorflow/tree/r0.11)
+[python-midi](https://github.com/vishnubob/python-midi)
