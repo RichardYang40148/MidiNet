@@ -4,7 +4,7 @@ This repository contains the source code of [MdidNet : A Convolutional Generativ
 
 ## Notes
 
-This model is a slightly modified version of the model that we presented in the above paper, you can find notations in the code if the parameters differ from the paper.
+This is a slightly modified version of the model that we presented in the above paper, you can find notations in the code if the parameters differ from the paper.
 
 These scripts are refer to [A tensorflow implementation of "Deep Convolutional Generative Adversarial Networks](https://github.com/carpedm20/DCGAN-tensorflow)
 
