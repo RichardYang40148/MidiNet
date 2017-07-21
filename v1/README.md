@@ -1,3 +1,5 @@
+This repository is still under preperation, we plan to release a trained model and a refined version of MidiNet(v1) around August. However, if anyone want to have a first look for the implementation, you can find the source code in this directory.
+
 This repository contains the source code of [MdidNet : A Convolutional Generative Adversarial Network for Symbolic-domain Music Generation](https://arxiv.org/abs/1703.10847)
 
 <img src="network_structure.png" height="350">
