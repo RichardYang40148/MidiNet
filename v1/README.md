@@ -12,7 +12,7 @@ These scripts are refer to [A tensorflow implementation of "Deep Convolutional G
 
 Thanks to Taehoon Kim / @carpedm20 for releasing such a decent DCGAN implementaion
 
-## Instructions
+## Instructions (trained model will be released in August)
 
 The repository contains one trained model, which is  trained under only 50496 midi bars(augmented from 4208 bars), so the generator might sounds not so "creative".
 
