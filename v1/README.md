@@ -22,7 +22,7 @@ tensorboard --logdir=log/
 ```
 You can check out the loss in the training, and the embedding visulizations of real and fake datas.
 <img src="g_loss.png" height="350">
-<img src="embedding.png" height="350">
+<img src="embedding.png" height="500">
 
 To train by your own dataset:
 ```
