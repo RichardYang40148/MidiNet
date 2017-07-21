@@ -21,6 +21,7 @@ It's quite fun to use Tencorboard to check out the model's training process:
 tensorboard --logdir=log/
 ```
 You can check out the loss in the training, and the embedding visulizations of real and fake datas.
+<img src="g_loss.png" height="350">
 <img src="embedding.png" height="350">
 
 To train by your own dataset:
@@ -29,6 +30,6 @@ To train by your own dataset:
 2. run main.py --is_train True
 ```
 ## Requirements
-[Tensorflow 0.11.0](https://github.com/tensorflow/tensorflow/tree/r0.11)
+[Tensorflow 0.12](https://github.com/tensorflow/tensorflow/tree/r0.12)
 
 [python-midi](https://github.com/vishnubob/python-midi)
