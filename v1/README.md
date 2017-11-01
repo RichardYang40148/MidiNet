@@ -1,20 +1,24 @@
-This repository is still under preperation, we plan to release a trained model and a refined version of MidiNet(v1) around October. However, if anyone want to have a first look of the implementation, you can find the source code in this directory.
-
 This repository contains the source code of [MdidNet : A Convolutional Generative Adversarial Network for Symbolic-domain Music Generation](https://arxiv.org/abs/1703.10847)
+
 
 <img src="network_structure.png" height="350">
 
 ## Notes
 
 This is a slightly modified version of the model that we presented in the above paper, you can find notations in the code if the parameters differ from the paper.
+We also provide a preliminary result of the model, which aims to help those who are interested of implementing MidiNet to gain more concept of the data format.
+
 
 These scripts are refer to [A tensorflow implementation of "Deep Convolutional Generative Adversarial Networks](https://github.com/carpedm20/DCGAN-tensorflow)
 
 Thanks to Taehoon Kim / @carpedm20 for releasing such a decent DCGAN implementaion
 
-## Instructions (trained model will be released in August)
+## Instructions
 
-The repository contains one trained model, which is  trained under only 50496 midi bars(augmented from 4208 bars), so the generator might sounds not so "creative".
+The repository contains a preliminary trained model, which is  trained under only 50496 midi bars(augmented from 4208 bars), so the generator might sounds not so "creative".
+
+The model could be downloaded from the following link.
+https://drive.google.com/open?id=0B_B9afNKo7IqN205MzdLRFlOZzA
 
 It's quite fun to use Tencorboard to check out the model's training process: 
 ```
