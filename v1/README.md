@@ -17,8 +17,8 @@ Thanks to Taehoon Kim / @carpedm20 for releasing such a decent DCGAN implementai
 
 The repository contains a preliminary trained model, which is  trained under only 50496 midi bars(augmented from 4208 bars), so the generator might sounds not so "creative".
 
-The model could be downloaded from the following link.
-https://drive.google.com/open?id=0B_B9afNKo7IqN205MzdLRFlOZzA
+The model could be downloaded from the [link](https://drive.google.com/open?id=0B_B9afNKo7IqN205MzdLRFlOZzA).
+
 
 It's quite fun to use Tencorboard to check out the model's training process: 
 ```
