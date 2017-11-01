@@ -2,16 +2,17 @@ This repository contains the source code of [MdidNet : A Convolutional Generativ
 
 
 <img src="network_structure.png" height="350">
+## Follow-up research of MidiNet
+
+If you are interesting to the follow-up research of MidiNet, please check out [MuseGAN: Symbolic-domain Music Generation and Accompaniment with Multi-track Sequential Generative Adversarial Networks](https://salu133445.github.io/musegan/).
+
+Which we have a more detailed explanation of the data format (piano roll like feature with higher resolution compare to MidiNet).
 
 ## Notes
 
 This is a slightly modified version of the model that we presented in the above paper, you can find notations in the code if the parameters differ from the paper.
 We also provide a preliminary result of the model, which aims to help those who are interested of implementing MidiNet to gain more concept of the data format.
 
-
-These scripts are refer to [A tensorflow implementation of "Deep Convolutional Generative Adversarial Networks](https://github.com/carpedm20/DCGAN-tensorflow)
-
-Thanks to Taehoon Kim / @carpedm20 for releasing such a decent DCGAN implementaion
 
 ## Instructions
 
@@ -33,6 +34,12 @@ To train by your own dataset:
 1. change line 134-136 to your data path
 2. run main.py --is_train True
 ```
+
+## Acknowledgment
+
+These scripts are refer to [A tensorflow implementation of "Deep Convolutional Generative Adversarial Networks](https://github.com/carpedm20/DCGAN-tensorflow)
+
+Thanks to Taehoon Kim / @carpedm20 for releasing such a decent DCGAN implementaion
 ## Requirements
 [Tensorflow 0.12](https://github.com/tensorflow/tensorflow/tree/r0.12)
 
