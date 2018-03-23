@@ -131,9 +131,9 @@ class MidiNet(object):
     
         if config.dataset == 'MidiNet_v1':
             # change the file path to your dataset
-            data_X = np.load('/home/richardyang/NAS/RichardYang/MidiNet/Final/data/augmentation/octave2_x.npy')
-            prev_X = np.load('/home/richardyang/NAS/RichardYang/MidiNet/Final/data/augmentation/octave2_prev_x.npy')
-            data_y = np.load('/home/richardyang/NAS/RichardYang/MidiNet/Final/data/augmentation/new_shifted_y.npy')
+            data_X = np.load('your_training_data.npy') #Shape: (n, 1, 16, 128), where n is the number of measures(bars) of training data.
+            prev_X = np.load('your_training_data_previous_bar.npy') #Shape: (n, 1, 16, 128), if the bar is a first bar, it's previous bar = np.zeros(1,16,128)
+            data_y = np.load('your_chord_annotation.npy') #1D chord condition
 
             data_X, prev_X, data_y = shuffle(data_X,prev_X,data_y, random_state=0)
             
