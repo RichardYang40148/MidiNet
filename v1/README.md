@@ -1,5 +1,6 @@
-This repository contains the source code of [MdidNet : A Convolutional Generative Adversarial Network for Symbolic-domain Music Generation](https://arxiv.org/abs/1703.10847)
+This repository contains the original source code of [MdidNet : A Convolutional Generative Adversarial Network for Symbolic-domain Music Generation](https://arxiv.org/abs/1703.10847).
 
+Now you can find the pytorch implementation [in this repo](https://github.com/annahung31/MidiNet-by-pytorch).
 
 <img src="network_structure.png" height="350">
 
